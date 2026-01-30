@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>少林寺拳法部 追いコン2026</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ========== 共通ヘッダー ========== -->
+    <header>
+        <nav class="nav">
+            <div class="nav-container">
+                <a href="index.html" class="nav-link active">HOME</a>
+                <a href="kusatsu.html" class="nav-link">草津温泉</a>
+                <a href="karuizawa.html" class="nav-link">軽井沢</a>
+                <a href="schedule.html" class="nav-link">旅程・配車</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ========== メインコンテンツ ========== -->
+    <main>
+        <!-- ヒーローセクション -->
+        <!-- ここを編集してください：ヒーロー画像はimages/common/hero.jpg -->
+        <section class="hero">
+            <div class="hero-image" style="background-image: url('images/common/hero.jpg');"></div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <!-- ここを編集してください：メインタイトル -->
+                <h1 class="hero-title">少林寺拳法部 追いコン2026</h1>
+                <!-- ここを編集してください：サブコピー -->
+                <p class="hero-subtitle">ともに鍛え、ともに歩んだ時間へ</p>
+            </div>
+        </section>
+
+        <!-- 追いコン概要 -->
+        <section class="intro-section">
+            <div class="container">
+                <!-- ここを編集してください：追いコン概要文 -->
+                <p class="intro-text">
+                    卒業される先輩方とともに過ごす最後の旅。<br>
+                    草津温泉と軽井沢を巡り、語り、笑い、感謝を伝える2日間。
+                </p>
+            </div>
+        </section>
+
+        <!-- 行き先カード -->
+        <section class="destination-section">
+            <div class="container">
+                <div class="card-grid">
+                    <!-- 草津温泉カード -->
+                    <!-- ここを編集してください：草津の画像はimages/common/kusatsu-card.jpg -->
+                    <a href="kusatsu.html" class="destination-card">
+                        <div class="card-image" style="background-image: url('images/common/kusatsu-card.jpg');"></div>
+                        <div class="card-content">
+                            <h2 class="card-title">草津温泉</h2>
+                            <p class="card-description">日本三名泉のひとつ。湯畑を中心に広がる温泉街。</p>
+                        </div>
+                    </a>
+
+                    <!-- 軽井沢カード -->
+                    <!-- ここを編集してください：軽井沢の画像はimages/common/karuizawa-card.jpg -->
+                    <a href="karuizawa.html" class="destination-card">
+                        <div class="card-image" style="background-image: url('images/common/karuizawa-card.jpg');"></div>
+                        <div class="card-content">
+                            <h2 class="card-title">軽井沢</h2>
+                            <p class="card-description">爽やかな高原の風が吹く、自然とおしゃれな街並み。</p>
+                        </div>
+                    </a>
+
+                    <!-- 旅程・配車カード -->
+                    <a href="schedule.html" class="destination-card">
+                        <div class="card-content-only">
+                            <h2 class="card-title">旅程・配車</h2>
+                            <p class="card-description">2日間のスケジュールと配車情報を確認できます。</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ========== 共通フッター ========== -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 少林寺拳法部 追いコン係</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
