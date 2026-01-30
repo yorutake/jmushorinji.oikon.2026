@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>旅程・配車 | 少林寺拳法部 追いコン2026</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ========== 共通ヘッダー ========== -->
+    <header>
+        <nav class="nav">
+            <div class="nav-container">
+                <a href="index.html" class="nav-link">HOME</a>
+                <a href="kusatsu.html" class="nav-link">草津温泉</a>
+                <a href="karuizawa.html" class="nav-link">軽井沢</a>
+                <a href="schedule.html" class="nav-link active">旅程・配車</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ========== メインコンテンツ ========== -->
+    <main>
+        <!-- ページヘッダー -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">旅程・配車</h1>
+            </div>
+        </section>
+
+        <!-- 旅程セクション -->
+        <section class="schedule-section">
+            <div class="container">
+                <h2 class="section-title">旅程</h2>
+                
+                <!-- Dayタブ -->
+                <div class="day-tabs">
+                    <button class="day-tab active" data-day="day1">Day 1</button>
+                    <button class="day-tab" data-day="day2">Day 2</button>
+                </div>
+
+                <!-- Day1 旅程表 -->
+                <!-- ここを編集してください：Day1のスケジュール -->
+                <div class="day-content active" id="day1">
+                    <table class="schedule-table">
+                        <thead>
+                            <tr>
+                                <th>時刻</th>
+                                <th>内容</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>10:00</td>
+                                <td>集合・出発</td>
+                            </tr>
+                            <tr>
+                                <td>13:00</td>
+                                <td>草津温泉到着</td>
+                            </tr>
+                            <tr>
+                                <td>13:30</td>
+                                <td>湯畑散策・自由時間</td>
+                            </tr>
+                            <tr>
+                                <td>16:00</td>
+                                <td>宿チェックイン</td>
+                            </tr>
+                            <tr>
+                                <td>17:30</td>
+                                <td>温泉入浴</td>
+                            </tr>
+                            <tr>
+                                <td>18:30</td>
+                                <td>夕食・宴会</td>
+                            </tr>
+                            <tr>
+                                <td>20:30</td>
+                                <td>二次会・フリータイム</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Day2 旅程表 -->
+                <!-- ここを編集してください：Day2のスケジュール -->
+                <div class="day-content" id="day2">
+                    <table class="schedule-table">
+                        <thead>
+                            <tr>
+                                <th>時刻</th>
+                                <th>内容</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>08:00</td>
+                                <td>朝食</td>
+                            </tr>
+                            <tr>
+                                <td>10:00</td>
+                                <td>チェックアウト・軽井沢へ移動</td>
+                            </tr>
+                            <tr>
+                                <td>11:30</td>
+                                <td>軽井沢到着（旧軽井沢銀座散策）</td>
+                            </tr>
+                            <tr>
+                                <td>12:30</td>
+                                <td>ランチ（自由行動）</td>
+                            </tr>
+                            <tr>
+                                <td>14:00</td>
+                                <td>アウトレット・観光スポット巡り</td>
+                            </tr>
+                            <tr>
+                                <td>16:30</td>
+                                <td>解散</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- 配車情報セクション -->
+        <section class="carpool-section">
+            <div class="container">
+                <h2 class="section-title">配車情報</h2>
+                
+                <!-- ここを編集してください：配車情報（運転者ごとにカードを追加） -->
+                
+                <!-- 配車カード1 -->
+                <div class="carpool-card">
+                    <h3 class="carpool-driver">〇〇先輩の車</h3>
+                    <p class="carpool-capacity">定員：5名</p>
+                    <ul class="carpool-members">
+                        <li>田中太郎</li>
+                        <li>佐藤花子</li>
+                        <li>鈴木一郎</li>
+                        <li>高橋次郎</li>
+                        <li>伊藤三郎</li>
+                    </ul>
+                </div>
+
+                <!-- 配車カード2 -->
+                <div class="carpool-card">
+                    <h3 class="carpool-driver">△△先輩の車</h3>
+                    <p class="carpool-capacity">定員：4名</p>
+                    <ul class="carpool-members">
+                        <li>山田四郎</li>
+                        <li>中村五郎</li>
+                        <li>小林六郎</li>
+                        <li>加藤七郎</li>
+                    </ul>
+                </div>
+
+                <!-- 配車カード3 -->
+                <div class="carpool-card">
+                    <h3 class="carpool-driver">□□先輩の車</h3>
+                    <p class="carpool-capacity">定員：5名</p>
+                    <ul class="carpool-members">
+                        <li>吉田八郎</li>
+                        <li>山本九郎</li>
+                        <li>佐々木十郎</li>
+                        <li>松本一子</li>
+                        <li>井上二子</li>
+                    </ul>
+                </div>
+
+                <!-- 配車カード4 -->
+                <div class="carpool-card">
+                    <h3 class="carpool-driver">◇◇先輩の車</h3>
+                    <p class="carpool-capacity">定員：4名</p>
+                    <ul class="carpool-members">
+                        <li>木村三子</li>
+                        <li>林四子</li>
+                        <li>清水五子</li>
+                        <li>山口六子</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ========== 共通フッター ========== -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 少林寺拳法部 追いコン係</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
